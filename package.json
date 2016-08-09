@@ -1,0 +1,17 @@
+{
+  "name": "Anokha",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This is the website for Anokha",
+  "repository": "https://github.com/njaditya/Anokha-Website",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "1.7.7"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+  },
+  "dependencies": {}
+}
