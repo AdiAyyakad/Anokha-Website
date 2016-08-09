@@ -26,9 +26,7 @@
 			<p><img href = "#" class = "animated pulse" src="lib/images/logobanner.png" height=300 width=800></br></br></p>
 			<h1>ANOKHA</h1><br>
 			<p>Fusion A Cappella from the University of Maryland</p>
-			<!-- <h1>ANOKHA, <font size="10">Fusion A Cappella from the University of Maryland.</font></h1></p> -->
 		</div>
-
 
 		<ul id="navigation">
 			<li class="home"><a href="#" title="Home"><img src="lib/images/hometab.png"></a></li>
@@ -37,7 +35,6 @@
 			<li class="videos"><a href ="videos.html" title="Videos"><img src="lib/images/videotab.png"></a></li>
 			<li class="members"><a href="members.html"title="Members"><img src="lib/images/membertab.png"></a></li>
 			<li class="contact"><a href = "#myModal" data-toggle="modal" title="Contact Us"><img src="lib/images/contacttab.png"></a></li>
-
 		</ul>
 
 		<div id="maximage">
@@ -74,8 +71,7 @@
 			</div>
 		</div>
 
-		<!-- Footer
-		================================================== -->
+		<!-- ============================== Footer ============================== -->
 		<footer class="footer">
 			<div class="container">
 				<div class="span4">
@@ -146,27 +142,27 @@
 
 		<script type="text/javascript">
 
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-30702122-1']);
-		_gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-30702122-1']);
+			_gaq.push(['_trackPageview']);
 
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
 
-		$(function() {
-			$('#navigation a').stop().animate({'marginLeft':'-285px'},1000);
-			$('#navigation > li').hover(
-				function () {
-					$('a',$(this)).stop().animate({'marginLeft':'-1px'},200);
-				},
-				function () {
-					$('a',$(this)).stop().animate({'marginLeft':'-285px'},200);
-				}
-			);
-		});
+			$(function() {
+				$('#navigation a').stop().animate({'marginLeft':'-285px'},1000);
+				$('#navigation > li').hover(
+					function () {
+						$('a',$(this)).stop().animate({'marginLeft':'-1px'},200);
+					},
+					function () {
+						$('a',$(this)).stop().animate({'marginLeft':'-285px'},200);
+					}
+				);
+			});
 
 		</script>
 
