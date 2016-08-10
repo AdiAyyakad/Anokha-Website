@@ -1,0 +1,11 @@
+{
+  "name": "Anokha",
+  "description": "This is the website for Anokha",
+  "version": "1.0.0",
+  "homepage": "https://github.com/njaditya/Anokha-Website",
+  "license": "nolicense",
+  "private": true,
+  "dependencies": {
+    "bootstrap" : "2.3.1"
+  }
+}
