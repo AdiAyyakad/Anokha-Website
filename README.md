@@ -1,5 +1,3 @@
 # Anokha-Website
 
-ftp.xtreemhost.com
-xth_13252167
-sanjay
+sanjay_13252167 xth
